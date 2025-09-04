@@ -13,6 +13,11 @@ const nextConfig: NextConfig = {
       ],
     };
   },
+  i18n: {
+    defaultLocale: "en",
+    locales: ["en"],
+    localeDetection: false,
+  },
 };
 
 export default nextConfig;

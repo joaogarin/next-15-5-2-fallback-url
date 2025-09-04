@@ -5,8 +5,6 @@ export default function Home() {
 export const getServerSideProps = (ctx: any) => {
   console.log("getServerSideProps in index");
   return {
-    props: {
-      page: "router",
-    },
+    props: {},
   };
 };
