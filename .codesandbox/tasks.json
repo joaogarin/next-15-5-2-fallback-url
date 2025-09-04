@@ -2,13 +2,13 @@
   "setupTasks": [
     {
       "name": "Install Dependencies",
-      "command": "pnpm install"
+      "command": "npm install"
     }
   ],
   "tasks": {
     "dev": {
       "name": "dev",
-      "command": "pnpm update next@canary && pnpm dev",
+      "command": "npm update next@canary && npm run dev",
       "runAtStart": true,
       "restartOn": {
         "clone": true
